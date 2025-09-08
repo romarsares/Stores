@@ -1,0 +1,36 @@
+/* Themify Icons */
+/* Version: 1.0.0 */
+/* License: MIT License */
+/* https://themify.me/themify-icons */
+
+@font-face {
+    font-family: 'Themify';
+    src: url('../fonts/themify.eot');
+    src: url('../fonts/themify.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/themify.woff') format('woff'),
+         url('../fonts/themify.ttf') format('truetype'),
+         url('../fonts/themify.svg#Themify') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*="ti-"]:before {
+    font-family: 'Themify' !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-home:before { content: "\e600"; }
+.ti-user:before { content: "\e601"; }
+.ti-settings:before { content: "\e602"; }
+.ti-heart:before { content: "\e603"; }
+.ti-shopping-cart:before { content: "\e604"; }
+.ti-star:before { content: "\e605"; }
+.ti-search:before { content: "\e606"; }
+.ti-trash:before { content: "\e607"; }
+.ti-pencil:before { content: "\e608"; }
+.ti-comment:before { content: "\e609"; }
+/* Add more icons as needed */

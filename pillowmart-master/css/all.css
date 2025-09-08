@@ -1,0 +1,39 @@
+/* 
+This file contains styles for various icons and fonts used throughout the project. 
+*/ 
+
+@font-face {
+    font-family: 'Themify';
+    src: url('../fonts/themify.eot');
+    src: url('../fonts/themify.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/themify.woff') format('woff'),
+         url('../fonts/themify.ttf') format('truetype'),
+         url('../fonts/themify.svg#themify') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Flaticon';
+    src: url('../fonts/flaticon.eot');
+    src: url('../fonts/flaticon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/flaticon.woff') format('woff'),
+         url('../fonts/flaticon.ttf') format('truetype'),
+         url('../fonts/flaticon.svg#flaticon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Add your custom styles below */ 
+
+.icon {
+    font-family: 'Themify';
+    font-size: 24px;
+    color: #333;
+}
+
+.flaticon {
+    font-family: 'Flaticon';
+    font-size: 24px;
+    color: #333;
+}

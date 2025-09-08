@@ -1,0 +1,90 @@
+/* Slick slider styles */
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-track {
+    display: flex;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+}
+
+.slick-slide {
+    display: none;
+    height: 100%;
+    /* Adjust height as needed */
+}
+
+.slick-slide.slick-active {
+    display: block;
+}
+
+.slick-arrow {
+    font-size: 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.slick-arrow:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #000;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 10px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots li {
+    margin: 0 5px;
+}
+
+.slick-dots button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: none;
+    background: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots .slick-active button {
+    background: #000;
+}

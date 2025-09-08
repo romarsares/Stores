@@ -1,0 +1,119 @@
+/***************
+* Custom Styles *
+***************/
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Header Styles */
+.main_menu {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-width: 150px;
+}
+
+/* Breadcrumb Styles */
+.breadcrumb_part {
+    background: url('../img/breadcrumb-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.breadcrumb_iner h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* About Us Section */
+.about_us {
+    padding: 60px 0;
+}
+
+.about_us_content h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Feature Section */
+.feature_part {
+    padding: 60px 0;
+}
+
+.single_feature_part {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.single_feature_part img {
+    max-width: 60px;
+    margin-bottom: 15px;
+}
+
+/* Client Review Section */
+.client_review {
+    padding: 60px 0;
+}
+
+.client_review_slider {
+    position: relative;
+}
+
+/* Subscribe Section */
+.subscribe_part {
+    background-color: #007bff;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.subscribe_form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.subscribe_form .btn_1 {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+.footer_part {
+    background-color: #343a40;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer_menu a {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.social_icon a {
+    color: #fff;
+    margin-right: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-width: 120px;
+    }
+
+    .about_us_content h3 {
+        font-size: 24px;
+    }
+}

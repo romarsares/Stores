@@ -1,0 +1,21 @@
+/* flaticon.css - Styles for flaticon icons used in the project */
+
+/* Example styles for flaticon icons */
+.flaticon {
+    font-family: 'flaticon';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-heart:before {
+    content: "\e900"; /* Example icon code */
+}
+
+.flaticon-star:before {
+    content: "\e901"; /* Example icon code */
+}
+
+/* Add more icon styles as needed */

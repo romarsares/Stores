@@ -1,0 +1,62 @@
+/* 
+ * Owl Carousel v2.3.4
+ * https://owlcarousel2.github.io/OwlCarousel2/
+ * 
+ * Copyright 2013 - 2021 David Deutsch
+ * Released under the MIT License
+ */
+
+.owl-carousel {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.owl-carousel .item {
+  display: block;
+  height: auto;
+  margin: 5px;
+  padding: 10px;
+  background: #4a90e2;
+  color: #fff;
+  text-align: center;
+}
+
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -22px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.owl-carousel .owl-nav button {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.owl-carousel .owl-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span {
+  background: #4a90e2;
+}
